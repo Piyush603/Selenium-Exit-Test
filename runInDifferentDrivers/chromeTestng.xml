@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Chrome Test">
+	<parameter name="browser" value="chrome" />
+	<test name="Login Test">
+		<classes>
+			  <class name="Com.Sample.testcases.LoginTest"/>
+		      <class name="Com.Sample.testcases.AddaddressTest"/>
+		      <class name="Com.Sample.testcases.DeleteAddressTest"/>
+		      <class name="Com.Sample.testcases.SuperCoinZoneTest"/>
+		      <class name="Com.Sample.testcases.OrdersTest"/>
+		      <class name="Com.Sample.testcases.WishlistTest"/>
+		      <class name="Com.Sample.testcases.SearchTest"/>
+		      <class name="Com.Sample.testcases.FilterTest"/>
+		      <class name="Com.Sample.testcases.SellerTest"/>
+		      <class name="Com.Sample.testcases.FavoritesTest"/>
+		      <class name="Com.Sample.testcases.SignoutTest"/>
+		</classes>
+	</test>
+
+	
+</suite>

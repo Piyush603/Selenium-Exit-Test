@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Com.Sample.testcases.LoginTest"/>
+      <class name="Com.Sample.testcases.AddaddressTest"/>
+      <class name="Com.Sample.testcases.DeleteAddressTest"/>
+      <class name="Com.Sample.testcases.SuperCoinZoneTest"/>
+      <class name="Com.Sample.testcases.OrdersTest"/>
+      <class name="Com.Sample.testcases.WishlistTest"/>
+      <class name="Com.Sample.testcases.SearchTest"/>
+      <class name="Com.Sample.testcases.FilterTest"/>
+      <class name="Com.Sample.testcases.SellerTest"/>
+      <class name="Com.Sample.testcases.FavoritesTest"/>
+      <class name="Com.Sample.testcases.SignoutTest"/>
+      
+      
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
