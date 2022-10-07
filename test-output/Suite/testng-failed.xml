@@ -21,21 +21,10 @@
           <include name="afterMethod"/>
           <include name="Incorrectemailtest"/>
           <include name="Setup"/>
-          <include name="init"/>
           <include name="startTest"/>
+          <include name="init"/>
         </methods>
       </class> <!-- Com.Sample.testcases.LoginTest -->
-      <class name="Com.Sample.testcases.FilterTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="reportFlush"/>
-          <include name="afterMethod"/>
-          <include name="DeleteFilteredThings"/>
-          <include name="Setup"/>
-          <include name="init"/>
-          <include name="startTest"/>
-        </methods>
-      </class> <!-- Com.Sample.testcases.FilterTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

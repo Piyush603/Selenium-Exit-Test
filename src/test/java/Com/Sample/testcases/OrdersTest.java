@@ -2,6 +2,8 @@ package Com.Sample.testcases;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -16,7 +18,7 @@ import Com.Sample.utilities.PropertiesFile;
 
 public class OrdersTest extends basepage {
 	OrdersPage lp;
-
+	private static Logger logger = LogManager.getLogger(OrdersTest.class);
 	public OrdersTest() {
 		super();
 	}
@@ -27,7 +29,7 @@ public class OrdersTest extends basepage {
 		lp = new OrdersPage(null);
 	}
 
-	@Test(priority=8)
+	@Test(priority=8,groups = {"sanity"})
 	
 	public void OrderTest() throws InterruptedException {
 		
@@ -50,7 +52,7 @@ public class OrdersTest extends basepage {
 		Assert.assertEquals(driver.getTitle(), "Flipkart.com: Your Order History");
 		System.out.println("Assert passed");
 	}
-	@Test(priority=9)
+	@Test(priority=9,groups = {"sanity"})
 	
 	public void FilterOrderTest() throws InterruptedException {
 		

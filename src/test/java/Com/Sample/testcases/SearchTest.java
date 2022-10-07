@@ -3,6 +3,8 @@ package Com.Sample.testcases;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -16,7 +18,9 @@ import Com.Sample.utilities.PropertiesFile;
 
 public class SearchTest extends basepage {
 	SearchPage lp;
+	private static Logger logger = LogManager.getLogger(SearchTest.class);
 
+	
 	public SearchTest() {
 		super();
 	}
@@ -28,7 +32,7 @@ public class SearchTest extends basepage {
 
 	}
 
-	@Test(priority = 12)
+	@Test(priority = 12,groups = {"sanity"})
 	public void Search() throws InterruptedException {
 		
 		driver.findElement(LoginPage.btn_Login1).click();
@@ -48,7 +52,7 @@ public class SearchTest extends basepage {
 		System.out.println("Assert passed");
 	}
 
-	@Test(priority = 13)
+	@Test(priority = 13,groups = {"sanity"})
 	public void AddToCart() throws InterruptedException {
 		driver.findElement(LoginPage.btn_Login1).click();
 		Thread.sleep(2000);

@@ -1,6 +1,9 @@
 package Com.Sample.testcases;
 
 import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -14,6 +17,7 @@ import Com.Sample.utilities.PropertiesFile;
 
 public class FilterTest extends basepage {
 	FilterPage lp;
+	private static Logger logger = LogManager.getLogger(FilterTest.class);
 
 	public FilterTest() {
 		super();
@@ -26,7 +30,7 @@ public class FilterTest extends basepage {
 
 	}
 
-	@Test(priority = 14)
+	@Test(priority = 14,groups = {"sanity"})
 
 	public void Filter() throws InterruptedException {
 
@@ -49,7 +53,7 @@ public class FilterTest extends basepage {
 
 	}
 
-	@Test(priority = 15)
+	@Test(priority = 15,groups = {"sanity"})
 	public void FilterFewThings() throws InterruptedException {
 
 		// to Search for the data
@@ -58,6 +62,7 @@ public class FilterTest extends basepage {
 		Thread.sleep(2000);
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search2"));
 		driver.findElement(SearchPage.btn_submit).click();
+		logger.info("Searched Successful");
 		driver.navigate().refresh();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
@@ -75,6 +80,7 @@ public class FilterTest extends basepage {
 		WebElement select1 = driver.findElement(FilterPage.btn_filterr1);
 		js.executeScript("window.scrollBy(0,-200)");
 		select1.click();
+		logger.info("Clicked on Filtered Option Successful");
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(3000);
 		driver.findElement(FilterPage.btn_search).click();
@@ -83,6 +89,8 @@ public class FilterTest extends basepage {
 
 		driver.findElement(FilterPage.btn_search).sendKeys(PropertiesFile.prop.getProperty("MobileName"));
 		driver.findElement(FilterPage.btn_submit).click();
+		logger.info("Clicked on Filtered Option Successful");
+
 		driver.navigate().refresh();
 		JavascriptExecutor js1 = (JavascriptExecutor) driver;
 		js1.executeScript("window.scrollBy(0,500)");
@@ -97,7 +105,7 @@ public class FilterTest extends basepage {
 
 	}
 
-	@Test(priority = 16)
+	@Test(priority = 16,groups = {"sanity"})
 	public void DeleteFilteredThings() throws InterruptedException {
 
 		// to Search for the data

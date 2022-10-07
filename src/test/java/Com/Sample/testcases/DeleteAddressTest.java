@@ -2,6 +2,8 @@ package Com.Sample.testcases;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -17,6 +19,8 @@ import Com.Sample.utilities.PropertiesFile;
 
 public class DeleteAddressTest extends basepage {
 	DeleteAddressPage lp;
+	private static Logger logger = LogManager.getLogger(DeleteAddressTest.class);
+
 
 	public DeleteAddressTest() {
 		super();
@@ -28,12 +32,13 @@ public class DeleteAddressTest extends basepage {
 		lp = new DeleteAddressPage(null);
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 5,groups = {"smoke"})
 	public void EditAddressTest() throws InterruptedException {
 		driver.findElement(AddAddressPage.txt_username1).sendKeys(PropertiesFile.prop.getProperty("number"));
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Logging Successful");
 
 		// to hover over username... and to click on my profile and to edit the existing address
 
@@ -44,6 +49,8 @@ public class DeleteAddressTest extends basepage {
 		Thread.sleep(2000);
 		WebElement profile = driver.findElement(AddAddressPage.btn_profile);
 		profile.click();
+		logger.info("Clicked to My profile");
+		
 		Thread.sleep(5000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
@@ -57,6 +64,8 @@ public class DeleteAddressTest extends basepage {
 		Actions acts = new Actions(driver);
 		acts.moveToElement(Manage_address).click().perform();
 		Thread.sleep(2000);
+		logger.info("Clicked to Manage Address window");
+
 		WebElement mouse_hover1 = driver.findElement(DeleteAddressPage.btn_mousehover1);
 		Actions act1 = new Actions(driver);
 		act1.moveToElement(mouse_hover1).perform();
@@ -70,13 +79,15 @@ public class DeleteAddressTest extends basepage {
 		Thread.sleep(2000);
 		driver.findElement(DeleteAddressPage.btn_save).click();
 		Thread.sleep(2000);
+		logger.info(" Address Edited successfully ");
+
 		js.executeScript("window.scrollBy(0,-600)");
 		Thread.sleep(2000);
 		Assert.assertEquals(driver.getTitle(), "Manage Addresses");
 		System.out.println("Assert passed");
 	}
 
-	@Test(priority = 6)
+	@Test(priority = 6,groups = {"smoke"})
 
 	public void DeleteAddressTest1() throws InterruptedException {
 
@@ -84,6 +95,8 @@ public class DeleteAddressTest extends basepage {
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Logging Successfully");
+
 
 		// to hover over username... and to click on my profile and to delete the address
 
@@ -93,6 +106,8 @@ public class DeleteAddressTest extends basepage {
 		Thread.sleep(2000);
 		WebElement profile = driver.findElement(AddAddressPage.btn_profile);
 		profile.click();
+		logger.info("Clicked to My profile");
+
 		Thread.sleep(5000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
@@ -106,6 +121,9 @@ public class DeleteAddressTest extends basepage {
 		Actions acts = new Actions(driver);
 		acts.moveToElement(Manage_address).click().perform();
 		Thread.sleep(2000);
+		
+		logger.info("Clicked to Manage Address window");
+		
 		WebElement mouse_hover2 = driver.findElement(DeleteAddressPage.btn_mousehover1);
 		Actions act1 = new Actions(driver);
 		act1.moveToElement(mouse_hover2).perform();
@@ -114,6 +132,8 @@ public class DeleteAddressTest extends basepage {
 		acts2.moveToElement(delete).click().perform();
 		driver.findElement(DeleteAddressPage.btn_delete1).click();
 		Thread.sleep(2000);
+		logger.info(" Address Deleted successfully ");
+
 		Assert.assertEquals(driver.getTitle(), "Manage Addresses");
 		System.out.println("Assert passed");
 	}

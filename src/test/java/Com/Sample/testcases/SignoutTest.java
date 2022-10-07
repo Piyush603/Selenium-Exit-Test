@@ -2,6 +2,8 @@ package Com.Sample.testcases;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -16,6 +18,8 @@ import Com.Sample.utilities.PropertiesFile;
 
 public class SignoutTest extends basepage {
 	SignoutPage lp;
+	private static Logger logger = LogManager.getLogger(SignoutTest.class);
+
 
 	public SignoutTest() {
 		super();
@@ -27,7 +31,7 @@ public class SignoutTest extends basepage {
 		lp = new SignoutPage(null);
 	}
 
-	@Test(priority = 20)
+	@Test(priority = 20,groups = {"smoke"})
 	public void SignouttTest() throws InterruptedException {
 		
 		// login code
@@ -36,6 +40,8 @@ public class SignoutTest extends basepage {
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Login Successful");
+
 		
 		//to hover over my profile tab 
 		
@@ -52,6 +58,7 @@ public class SignoutTest extends basepage {
 		Assert.assertEquals(driver.getTitle(),
 				"Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!");
 		System.out.println("Assert passed");
+		logger.info("Signout Successful");
 
 	}
 

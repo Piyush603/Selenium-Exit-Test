@@ -2,6 +2,8 @@ package Com.Sample.testcases;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -16,6 +18,7 @@ import Com.Sample.utilities.PropertiesFile;
 
 public class FavoritesTest extends basepage {
 	FavoritesPage lp;
+	private static Logger logger = LogManager.getLogger(FavoritesTest.class);
 
 	public FavoritesTest() {
 		super();
@@ -27,7 +30,7 @@ public class FavoritesTest extends basepage {
 		lp = new FavoritesPage(null);
 	}
 
-	@Test(priority = 18)
+	@Test(priority = 18,groups = {"sanity"})
 	public void AddToWishlist() throws InterruptedException {
 		// login code
 
@@ -35,9 +38,12 @@ public class FavoritesTest extends basepage {
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Logging Successful");
+
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search3"));
 		driver.findElement(SearchPage.btn_submit).click();
 		Thread.sleep(2000);
+		logger.info("Searched Successful");
 		WebElement mouse_hover = driver.findElement(FavoritesPage.btn_hover);
 		Actions act = new Actions(driver);
 		act.moveToElement(mouse_hover).perform();
@@ -57,7 +63,7 @@ public class FavoritesTest extends basepage {
 		System.out.println("Assert passed");
 	}
 
-	@Test(priority = 19)
+	@Test(priority = 19,groups = {"sanity"})
 	public void DeleteFromWishlist() throws InterruptedException {
 		// login code
 
@@ -65,6 +71,9 @@ public class FavoritesTest extends basepage {
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Logging Successfully");
+
+		
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search3"));
 		driver.findElement(SearchPage.btn_submit).click();
 		Thread.sleep(2000);

@@ -33,7 +33,7 @@ public class basepage {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	
-	public static Logger log = LogManager.getLogger(basepage.class);
+
 	public void setup() throws IOException {
         if (PropertiesFile.getProperty("browser").equalsIgnoreCase("chrome")) {
             System.setProperty(PropertiesFile.getProperty("chromeProperty"),
@@ -63,6 +63,7 @@ public class basepage {
         }
         driver.manage().window().maximize();
         driver.get(PropertiesFile.getProperty("Url"));
+        
     }
 
 
@@ -107,7 +108,7 @@ public class basepage {
    public void teardown()
    {
        driver.close();
-       log.info("Browser closed...");
+
    }
 
 

@@ -2,6 +2,8 @@ package Com.Sample.testcases;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -17,7 +19,9 @@ import Com.Sample.utilities.PropertiesFile;
 
 public class SuperCoinZoneTest extends basepage {
 	SuperCoinZonePage lp;
+	private static Logger logger = LogManager.getLogger(SuperCoinZoneTest.class);
 
+	
 	public SuperCoinZoneTest() {
 		super();
 	}
@@ -29,7 +33,7 @@ public class SuperCoinZoneTest extends basepage {
 
 	}
 
-	@Test(priority = 7)
+	@Test(priority = 7,groups = {"sanity"})
 
 	public void SuperCoinZoneTest1() throws InterruptedException {
 		// login code
@@ -38,6 +42,8 @@ public class SuperCoinZoneTest extends basepage {
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Login Successful");
+
 
 		// to hover over username... and to click on supercoinzone page
 
@@ -48,6 +54,7 @@ public class SuperCoinZoneTest extends basepage {
 		WebElement supercoin = driver.findElement(SuperCoinZonePage.btn_coin);
 		supercoin.click();
 		Thread.sleep(5000);
+		logger.info("Clicked to SuperCoinZonePage");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(2000);

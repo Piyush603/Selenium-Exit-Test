@@ -2,22 +2,25 @@ package Com.Sample.testcases;
 
 import java.io.IOException;
 
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import Com.Sample.base.basepage;
 import Com.Sample.pages.AddAddressPage;
 import Com.Sample.pages.LoginPage;
 import Com.Sample.utilities.PropertiesFile;
 
+
+
 public class AddaddressTest extends basepage {
 
 	AddAddressPage lp;
+	private static Logger logger = LogManager.getLogger(AddaddressTest.class);
 
 	public AddaddressTest() {
 		super();
@@ -28,7 +31,7 @@ public class AddaddressTest extends basepage {
 		setup();
 		lp = new AddAddressPage(null);
 	}
-	@Test(priority = 3)
+	@Test(priority = 3,groups = {"smoke"})
 	public void AddValidAddresstest() throws InterruptedException {
 
 		// login code
@@ -37,6 +40,7 @@ public class AddaddressTest extends basepage {
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Logging Successful");
 
 		// to hover over username... and to click on my profile and to add new address
 
@@ -46,6 +50,9 @@ public class AddaddressTest extends basepage {
 		Thread.sleep(2000);
 		WebElement profile = driver.findElement(AddAddressPage.btn_profile);
 		profile.click();
+		logger.info("Clicked to My profile");
+		
+		
 		Thread.sleep(5000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
@@ -59,6 +66,8 @@ public class AddaddressTest extends basepage {
 		Actions acts = new Actions(driver);
 		acts.moveToElement(Manage_address).click().perform();
 		Thread.sleep(2000);
+		logger.info("Clicked to Manage Address window");
+		
 		WebElement Address = driver.findElement(AddAddressPage.btn_Add);
 		Actions actss = new Actions(driver);
 		actss.moveToElement(Address).click().perform();
@@ -80,15 +89,17 @@ public class AddaddressTest extends basepage {
 		Thread.sleep(2000);
 		Assert.assertEquals(driver.getTitle(), "Manage Addresses");
 		System.out.println("Assert passed");
+		logger.info(" Address added successfully ");
 	}
 
-	@Test(priority = 4)
+	@Test(priority = 4,groups = {"smoke"})
 	public void AddInvalidAddresstest() throws InterruptedException {
 
 		driver.findElement(AddAddressPage.txt_username1).sendKeys(PropertiesFile.prop.getProperty("number"));
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Logging Successful");
 
 		// to hover over username... and to click on my profile and to add new address 
 
@@ -98,6 +109,9 @@ public class AddaddressTest extends basepage {
 		Thread.sleep(2000);
 		WebElement profile = driver.findElement(AddAddressPage.btn_profile);
 		profile.click();
+		logger.info("Clicked to My profile");
+
+		
 		Thread.sleep(5000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
@@ -111,6 +125,8 @@ public class AddaddressTest extends basepage {
 		Actions acts = new Actions(driver);
 		acts.moveToElement(Manage_address).click().perform();
 		Thread.sleep(2000);
+		logger.info("Clicked to Manage Address window");
+
 		WebElement Address = driver.findElement(AddAddressPage.btn_Add);
 		Actions actss = new Actions(driver);
 		actss.moveToElement(Address).click().perform();
@@ -132,6 +148,8 @@ public class AddaddressTest extends basepage {
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		js.executeScript("window.scrollBy(0,-700)");
 		Thread.sleep(2000);
+		logger.info(" Address did not get added ");
+
 		Assert.assertEquals(driver.getTitle(), "Mange Addresses");
 		driver.manage().timeouts().implicitlyWait(1, null);
 		
