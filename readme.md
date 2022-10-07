@@ -1,4 +1,4 @@
-#ABOUT PROJECT 
+# ABOUT PROJECT 
 
 A.	Implementation of Automation Exit Test Assignment for Flipkart using Java Selenium
 B.	Tools Used 
@@ -20,7 +20,7 @@ b.	Mode options:-
 c.	Important Note 
 •	To change browser - change the browser in Resources/config.properties 
 
-#Important Directory 
+## Important Directory 
 •	Drivers : .drivers/ 
 •	Report File : .reports/ExtentReports.html 
 •	Log File : ./logs/propertieslogs.log 
@@ -29,7 +29,7 @@ c.	Important Note
 •	Test Data File : src/main/java…in package testdata\exceldata.xlsx
 
 
-#Driver Options:
+## Driver Options:
 Chrome, Edge, Firefox
 ##For Reporting below option available. Extent Report with Fail case screenshot in report. Logger Report
 ##Test Can also be run on maven command line command:- mvn clean test
@@ -37,14 +37,14 @@ Chrome, Edge, Firefox
 Command to install referenced  jar : 
 C:\Users\piyushdhamne\Downloads\selenium-java-3.141.59 
  
-How to run through jenkins 
+## How to run through jenkins 
 
 •	download jenkins.war file 
 •	run in cmd 
 •	setup Jenkins 
 
  
-Implemented features 
+## Implemented features 
 
 *	Create at least 20 automated scenarios across different flows and screens - done 
 *	Implement POM - done 
