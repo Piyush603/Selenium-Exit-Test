@@ -55,6 +55,7 @@ public class SuperCoinZoneTest extends basepage {
 		supercoin.click();
 		Thread.sleep(5000);
 		logger.info("Clicked to SuperCoinZonePage");
+		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(2000);

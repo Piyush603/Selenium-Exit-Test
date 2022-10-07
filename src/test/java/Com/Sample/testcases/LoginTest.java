@@ -12,6 +12,7 @@ import Com.Sample.pages.FilterPage;
 import Com.Sample.pages.LoginPage;
 import Com.Sample.utilities.ExcelReader;
 import Com.Sample.utilities.PropertiesFile;
+import Com.Sample.utilities.TestDataExecution;
 
 public class LoginTest extends basepage {
 	LoginPage lp;
@@ -33,7 +34,10 @@ public class LoginTest extends basepage {
 		driver.findElement(LoginPage.btn_Login1).click();
 		Thread.sleep(2000);
 		driver.findElement(LoginPage.btn_Login2).click();
+		
 		ExcelReader excel = new ExcelReader();
+		String EXECUTION_REQUIRED = excel.readingData(2, 1);
+        TestDataExecution.toCheckExecutionRequired(EXECUTION_REQUIRED);
 		String USERID = excel.readingData(0, 1);
 		String PASSWORD = excel.readingData(1, 1);
 		logger.info("Logging Successful through excel");

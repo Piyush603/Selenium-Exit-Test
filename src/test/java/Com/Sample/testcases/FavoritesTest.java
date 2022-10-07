@@ -48,6 +48,8 @@ public class FavoritesTest extends basepage {
 		Actions act = new Actions(driver);
 		act.moveToElement(mouse_hover).perform();
 		Thread.sleep(2000);
+		logger.info("Clicked to favorites Page");
+		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,100)");
 		Thread.sleep(2000);
@@ -61,6 +63,7 @@ public class FavoritesTest extends basepage {
 		js.executeScript("window.scrollBy(0,-400)");
 		Thread.sleep(2000);
 		System.out.println("Assert passed");
+		logger.info("Added to favorites ");
 	}
 
 	@Test(priority = 19,groups = {"sanity"})
@@ -77,6 +80,8 @@ public class FavoritesTest extends basepage {
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search3"));
 		driver.findElement(SearchPage.btn_submit).click();
 		Thread.sleep(2000);
+		logger.info("Searched Successful ");
+		
 		WebElement mouse_hover = driver.findElement(FavoritesPage.btn_hover);
 		Actions act = new Actions(driver);
 		act.moveToElement(mouse_hover).perform();
@@ -94,6 +99,7 @@ public class FavoritesTest extends basepage {
 		js.executeScript("window.scrollBy(0,-400)");
 		Thread.sleep(2000);
 		System.out.println("Assert passed");
+		logger.info("Deleted from favorites ");
 	}
 
 }

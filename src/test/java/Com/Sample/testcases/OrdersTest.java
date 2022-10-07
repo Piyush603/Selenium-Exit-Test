@@ -39,6 +39,8 @@ public class OrdersTest extends basepage {
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Logging Successful");
+
 
 		// to hover over username... and to click on orders tab
 
@@ -48,9 +50,14 @@ public class OrdersTest extends basepage {
 		Thread.sleep(2000);
 		WebElement orderss = driver.findElement(OrdersPage.btn_orders);
 		orderss.click();
+		logger.info("Clicked to the orders tab");
+
+		
 		Thread.sleep(2000);
 		Assert.assertEquals(driver.getTitle(), "Flipkart.com: Your Order History");
 		System.out.println("Assert passed");
+		logger.info("Successfully opened orders page");
+
 	}
 	@Test(priority=9,groups = {"sanity"})
 	
@@ -62,6 +69,7 @@ public class OrdersTest extends basepage {
 		driver.findElement(AddAddressPage.txt_password1).sendKeys(PropertiesFile.prop.getProperty("password"));
 		driver.findElement(LoginPage.btn_button1).click();
 		Thread.sleep(3000);
+		logger.info("Logging Successful");
 
 		// to hover over username... and to click on orders tab
 
@@ -71,6 +79,8 @@ public class OrdersTest extends basepage {
 		Thread.sleep(2000);
 		WebElement orderss = driver.findElement(OrdersPage.btn_orders);
 		orderss.click();
+		logger.info("Clicked to the orders tab");
+		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(2000);
@@ -80,6 +90,8 @@ public class OrdersTest extends basepage {
 		
 		WebElement box = driver.findElement(OrdersPage.box_cancelled);
 		box.click();
+		logger.info("Successfully clicked on cancelled order filter");
+
 		Thread.sleep(2000);
 		Assert.assertEquals(driver.getTitle(), "Flipkart.com: Your Order History");
 		System.out.println("Assert passed");

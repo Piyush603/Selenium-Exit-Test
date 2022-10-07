@@ -42,6 +42,8 @@ public class SearchTest extends basepage {
 		
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search1"));
 		driver.findElement(SearchPage.btn_submit).click();
+		logger.info("Searched Successful");
+		
 		//driver.navigate().refresh();
 		Thread.sleep(2000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -61,6 +63,8 @@ public class SearchTest extends basepage {
 		
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search1"));
 		driver.findElement(SearchPage.btn_submit).click();
+		logger.info("Searched Successful");
+		
 		Thread.sleep(2000);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
@@ -69,18 +73,24 @@ public class SearchTest extends basepage {
 		// to click on the particular item in that list
 		
 		driver.findElement(SearchPage.txt_search1).click();
+		logger.info("Searched Successful");
 		
 		// to open up the new tab and close the tab after adding the element to the cart
 		
 		ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs2.get(1));
+		logger.info("Navigatted to other tab");
+		
 		JavascriptExecutor js1 = (JavascriptExecutor) driver;
 		js1.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(2000);
 		WebElement submitt = driver.findElement(SearchPage.btn_cart);
 		submitt.click();
+		logger.info("Clicked on add to cart button");
+		
 		Thread.sleep(2000);
 		driver.close();
+		logger.info("Closed the opened tab and switched back to previous tab");
 		
 		// to switch back to the old tab where all the items exists and then click refresh to see element being added
 		

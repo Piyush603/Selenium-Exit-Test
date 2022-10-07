@@ -33,6 +33,7 @@ public class SellerTest extends basepage {
 		Thread.sleep(2000);
 		driver.findElement(SellerPage.btn_Seller).click();
 		logger.info("SellerPage clicked Successfully");
+		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(2000);

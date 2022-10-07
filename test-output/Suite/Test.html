@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>18/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 07 00:42:55 IST 2022</td>
+<td>Started on:</td><td>Fri Oct 07 14:53:29 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>453 seconds (453846 ms)</td>
+<tr><td>Total time:</td><td>1276 seconds (1276805 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Com.Sample.testcases.LoginTest.Incorrectemailtest()'><b>Incorrectemailtest</b><br>Test class: Com.Sample.testcases.LoginTest</td>
-<td><div><pre>java.lang.NullPointerException
-	at java.base/java.util.concurrent.TimeUnit.convert(TimeUnit.java:189)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:781)
-	at Com.Sample.testcases.LoginTest.Incorrectemailtest(LoginTest.java:56)
+<td title='Com.Sample.testcases.FilterTest.DeleteFilteredThings()'><b>DeleteFilteredThings</b><br>Test class: Com.Sample.testcases.FilterTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;text&quot; class=&quot;_34uFYj&quot; placeholder=&quot;Search Brand&quot; value=&quot;&quot;&gt; is not clickable at point (143, 458). Other element would receive the click: &lt;div class=&quot;_1XXPTY _1v2cG7&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=106.0.5249.91)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN-PG02A7W0&apos;, ip: &apos;192.168.29.148&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e07c3eb5f76cfedf625bf8f431ed3c5b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Com.Sample.testcases.FilterTest.DeleteFilteredThings(FilterTest.java:145)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1661728387", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1661728387'><pre>java.lang.NullPointerException
-	at java.base/java.util.concurrent.TimeUnit.convert(TimeUnit.java:189)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:781)
-	at Com.Sample.testcases.LoginTest.Incorrectemailtest(LoginTest.java:56)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1149801201", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1149801201'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;text&quot; class=&quot;_34uFYj&quot; placeholder=&quot;Search Brand&quot; value=&quot;&quot;&gt; is not clickable at point (143, 458). Other element would receive the click: &lt;div class=&quot;_1XXPTY _1v2cG7&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=106.0.5249.91)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN-PG02A7W0&apos;, ip: &apos;192.168.29.148&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e07c3eb5f76cfedf625bf8f431ed3c5b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at Com.Sample.testcases.FilterTest.DeleteFilteredThings(FilterTest.java:145)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,22 +143,65 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>5</td>
-<td>Com.Sample.testcases.LoginTest@478ee483</td></tr>
+<td>18</td>
+<td>Com.Sample.testcases.FilterTest@1c9f0a20</td></tr>
+<tr>
+<td title='Com.Sample.testcases.LoginTest.Incorrectemailtest()'><b>Incorrectemailtest</b><br>Test class: Com.Sample.testcases.LoginTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at java.base/java.util.concurrent.TimeUnit.convert(TimeUnit.java:189)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:781)
+	at Com.Sample.testcases.LoginTest.Incorrectemailtest(LoginTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1193577032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1193577032'><pre>java.lang.NullPointerException
+	at java.base/java.util.concurrent.TimeUnit.convert(TimeUnit.java:189)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:781)
+	at Com.Sample.testcases.LoginTest.Incorrectemailtest(LoginTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>Com.Sample.testcases.LoginTest@427b5f92</td></tr>
 <tr>
 <td title='Com.Sample.testcases.AddaddressTest.AddInvalidAddresstest()'><b>AddInvalidAddresstest</b><br>Test class: Com.Sample.testcases.AddaddressTest</td>
 <td><div><pre>java.lang.AssertionError: expected [Mange Addresses] but found [Manage Addresses]
-	at Com.Sample.testcases.AddaddressTest.AddInvalidAddresstest(AddaddressTest.java:136)
+	at Com.Sample.testcases.AddaddressTest.AddInvalidAddresstest(AddaddressTest.java:153)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace581067007", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace581067007'><pre>java.lang.AssertionError: expected [Mange Addresses] but found [Manage Addresses]
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1993191331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1993191331'><pre>java.lang.AssertionError: expected [Mange Addresses] but found [Manage Addresses]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Com.Sample.testcases.AddaddressTest.AddInvalidAddresstest(AddaddressTest.java:136)
+	at Com.Sample.testcases.AddaddressTest.AddInvalidAddresstest(AddaddressTest.java:153)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -160,8 +231,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>28</td>
-<td>Com.Sample.testcases.AddaddressTest@fb9c7aa</td></tr>
+<td>27</td>
+<td>Com.Sample.testcases.AddaddressTest@1991f767</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -171,95 +242,90 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='Com.Sample.testcases.DeleteAddressTest.DeleteAddressTest1()'><b>DeleteAddressTest1</b><br>Test class: Com.Sample.testcases.DeleteAddressTest</td>
+<td></td>
+<td>23</td>
+<td>Com.Sample.testcases.DeleteAddressTest@768ccdc5</td></tr>
+<tr>
 <td title='Com.Sample.testcases.OrdersTest.OrderTest()'><b>OrderTest</b><br>Test class: Com.Sample.testcases.OrdersTest</td>
 <td></td>
 <td>8</td>
-<td>Com.Sample.testcases.OrdersTest@607fbe09</td></tr>
+<td>Com.Sample.testcases.OrdersTest@659eef7</td></tr>
+<tr>
+<td title='Com.Sample.testcases.WishlistTest.DeleteWishlist()'><b>DeleteWishlist</b><br>Test class: Com.Sample.testcases.WishlistTest</td>
+<td></td>
+<td>19</td>
+<td>Com.Sample.testcases.WishlistTest@162be91c</td></tr>
+<tr>
+<td title='Com.Sample.testcases.FilterTest.FilterFewThings()'><b>FilterFewThings</b><br>Test class: Com.Sample.testcases.FilterTest</td>
+<td></td>
+<td>70</td>
+<td>Com.Sample.testcases.FilterTest@1c9f0a20</td></tr>
+<tr>
+<td title='Com.Sample.testcases.FilterTest.Filter()'><b>Filter</b><br>Test class: Com.Sample.testcases.FilterTest</td>
+<td></td>
+<td>14</td>
+<td>Com.Sample.testcases.FilterTest@1c9f0a20</td></tr>
+<tr>
+<td title='Com.Sample.testcases.FavoritesTest.AddToWishlist()'><b>AddToWishlist</b><br>Test class: Com.Sample.testcases.FavoritesTest</td>
+<td></td>
+<td>29</td>
+<td>Com.Sample.testcases.FavoritesTest@1992eaf4</td></tr>
 <tr>
 <td title='Com.Sample.testcases.SuperCoinZoneTest.SuperCoinZoneTest1()'><b>SuperCoinZoneTest1</b><br>Test class: Com.Sample.testcases.SuperCoinZoneTest</td>
 <td></td>
 <td>18</td>
-<td>Com.Sample.testcases.SuperCoinZoneTest@7fc6de5b</td></tr>
-<tr>
-<td title='Com.Sample.testcases.FilterTest.DeleteFilteredThings()'><b>DeleteFilteredThings</b><br>Test class: Com.Sample.testcases.FilterTest</td>
-<td></td>
-<td>30</td>
-<td>Com.Sample.testcases.FilterTest@5dd91bca</td></tr>
-<tr>
-<td title='Com.Sample.testcases.FavoritesTest.AddToWishlist()'><b>AddToWishlist</b><br>Test class: Com.Sample.testcases.FavoritesTest</td>
-<td></td>
-<td>22</td>
-<td>Com.Sample.testcases.FavoritesTest@75f65e45</td></tr>
-<tr>
-<td title='Com.Sample.testcases.WishlistTest.DeleteWishlist()'><b>DeleteWishlist</b><br>Test class: Com.Sample.testcases.WishlistTest</td>
-<td></td>
-<td>18</td>
-<td>Com.Sample.testcases.WishlistTest@60a2630a</td></tr>
-<tr>
-<td title='Com.Sample.testcases.SignoutTest.SignouttTest()'><b>SignouttTest</b><br>Test class: Com.Sample.testcases.SignoutTest</td>
-<td></td>
-<td>9</td>
-<td>Com.Sample.testcases.SignoutTest@6eeade6c</td></tr>
-<tr>
-<td title='Com.Sample.testcases.DeleteAddressTest.EditAddressTest()'><b>EditAddressTest</b><br>Test class: Com.Sample.testcases.DeleteAddressTest</td>
-<td></td>
-<td>27</td>
-<td>Com.Sample.testcases.DeleteAddressTest@4c398c80</td></tr>
-<tr>
-<td title='Com.Sample.testcases.SearchTest.AddToCart()'><b>AddToCart</b><br>Test class: Com.Sample.testcases.SearchTest</td>
-<td></td>
-<td>18</td>
-<td>Com.Sample.testcases.SearchTest@29df4d43</td></tr>
-<tr>
-<td title='Com.Sample.testcases.FilterTest.Filter()'><b>Filter</b><br>Test class: Com.Sample.testcases.FilterTest</td>
-<td></td>
-<td>11</td>
-<td>Com.Sample.testcases.FilterTest@5dd91bca</td></tr>
-<tr>
-<td title='Com.Sample.testcases.SearchTest.Search()'><b>Search</b><br>Test class: Com.Sample.testcases.SearchTest</td>
-<td></td>
-<td>6</td>
-<td>Com.Sample.testcases.SearchTest@29df4d43</td></tr>
-<tr>
-<td title='Com.Sample.testcases.FavoritesTest.DeleteFromWishlist()'><b>DeleteFromWishlist</b><br>Test class: Com.Sample.testcases.FavoritesTest</td>
-<td></td>
-<td>21</td>
-<td>Com.Sample.testcases.FavoritesTest@75f65e45</td></tr>
-<tr>
-<td title='Com.Sample.testcases.AddaddressTest.AddValidAddresstest()'><b>AddValidAddresstest</b><br>Test class: Com.Sample.testcases.AddaddressTest</td>
-<td></td>
-<td>27</td>
-<td>Com.Sample.testcases.AddaddressTest@fb9c7aa</td></tr>
-<tr>
-<td title='Com.Sample.testcases.FilterTest.FilterFewThings()'><b>FilterFewThings</b><br>Test class: Com.Sample.testcases.FilterTest</td>
-<td></td>
-<td>24</td>
-<td>Com.Sample.testcases.FilterTest@5dd91bca</td></tr>
-<tr>
-<td title='Com.Sample.testcases.WishlistTest.Wishlist()'><b>Wishlist</b><br>Test class: Com.Sample.testcases.WishlistTest</td>
-<td></td>
-<td>16</td>
-<td>Com.Sample.testcases.WishlistTest@60a2630a</td></tr>
+<td>Com.Sample.testcases.SuperCoinZoneTest@4c6daf0</td></tr>
 <tr>
 <td title='Com.Sample.testcases.LoginTest.correctemailtest()'><b>correctemailtest</b><br>Test class: Com.Sample.testcases.LoginTest</td>
 <td></td>
-<td>6</td>
-<td>Com.Sample.testcases.LoginTest@478ee483</td></tr>
-<tr>
-<td title='Com.Sample.testcases.SellerTest.SellerTest1()'><b>SellerTest1</b><br>Test class: Com.Sample.testcases.SellerTest</td>
-<td></td>
-<td>16</td>
-<td>Com.Sample.testcases.SellerTest@3382f8ae</td></tr>
-<tr>
-<td title='Com.Sample.testcases.DeleteAddressTest.DeleteAddressTest1()'><b>DeleteAddressTest1</b><br>Test class: Com.Sample.testcases.DeleteAddressTest</td>
-<td></td>
-<td>23</td>
-<td>Com.Sample.testcases.DeleteAddressTest@4c398c80</td></tr>
+<td>7</td>
+<td>Com.Sample.testcases.LoginTest@427b5f92</td></tr>
 <tr>
 <td title='Com.Sample.testcases.OrdersTest.FilterOrderTest()'><b>FilterOrderTest</b><br>Test class: Com.Sample.testcases.OrdersTest</td>
 <td></td>
 <td>10</td>
-<td>Com.Sample.testcases.OrdersTest@607fbe09</td></tr>
+<td>Com.Sample.testcases.OrdersTest@659eef7</td></tr>
+<tr>
+<td title='Com.Sample.testcases.AddaddressTest.AddValidAddresstest()'><b>AddValidAddresstest</b><br>Test class: Com.Sample.testcases.AddaddressTest</td>
+<td></td>
+<td>27</td>
+<td>Com.Sample.testcases.AddaddressTest@1991f767</td></tr>
+<tr>
+<td title='Com.Sample.testcases.DeleteAddressTest.EditAddressTest()'><b>EditAddressTest</b><br>Test class: Com.Sample.testcases.DeleteAddressTest</td>
+<td></td>
+<td>28</td>
+<td>Com.Sample.testcases.DeleteAddressTest@768ccdc5</td></tr>
+<tr>
+<td title='Com.Sample.testcases.FavoritesTest.DeleteFromWishlist()'><b>DeleteFromWishlist</b><br>Test class: Com.Sample.testcases.FavoritesTest</td>
+<td></td>
+<td>17</td>
+<td>Com.Sample.testcases.FavoritesTest@1992eaf4</td></tr>
+<tr>
+<td title='Com.Sample.testcases.WishlistTest.Wishlist()'><b>Wishlist</b><br>Test class: Com.Sample.testcases.WishlistTest</td>
+<td></td>
+<td>16</td>
+<td>Com.Sample.testcases.WishlistTest@162be91c</td></tr>
+<tr>
+<td title='Com.Sample.testcases.SellerTest.SellerTest1()'><b>SellerTest1</b><br>Test class: Com.Sample.testcases.SellerTest</td>
+<td></td>
+<td>15</td>
+<td>Com.Sample.testcases.SellerTest@1cd201a8</td></tr>
+<tr>
+<td title='Com.Sample.testcases.SearchTest.Search()'><b>Search</b><br>Test class: Com.Sample.testcases.SearchTest</td>
+<td></td>
+<td>6</td>
+<td>Com.Sample.testcases.SearchTest@2488b073</td></tr>
+<tr>
+<td title='Com.Sample.testcases.SignoutTest.SignouttTest()'><b>SignouttTest</b><br>Test class: Com.Sample.testcases.SignoutTest</td>
+<td></td>
+<td>8</td>
+<td>Com.Sample.testcases.SignoutTest@f74e835</td></tr>
+<tr>
+<td title='Com.Sample.testcases.SearchTest.AddToCart()'><b>AddToCart</b><br>Test class: Com.Sample.testcases.SearchTest</td>
+<td></td>
+<td>29</td>
+<td>Com.Sample.testcases.SearchTest@2488b073</td></tr>
 </table><p>
 </body>
 </html>

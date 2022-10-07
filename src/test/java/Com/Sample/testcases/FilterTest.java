@@ -41,6 +41,8 @@ public class FilterTest extends basepage {
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search2"));
 		driver.findElement(SearchPage.btn_submit).click();
 		driver.navigate().refresh();
+		logger.info("Searched Successfully ");
+		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(2000);
@@ -63,6 +65,7 @@ public class FilterTest extends basepage {
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search2"));
 		driver.findElement(SearchPage.btn_submit).click();
 		logger.info("Searched Successful");
+		
 		driver.navigate().refresh();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
@@ -81,6 +84,7 @@ public class FilterTest extends basepage {
 		js.executeScript("window.scrollBy(0,-200)");
 		select1.click();
 		logger.info("Clicked on Filtered Option Successful");
+		
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(3000);
 		driver.findElement(FilterPage.btn_search).click();
@@ -102,6 +106,7 @@ public class FilterTest extends basepage {
 		Assert.assertEquals(driver.getTitle(),
 				"Mobiles- Buy Products Online at Best Price in India - All Categories | Flipkart.com");
 		System.out.println("Assert passed");
+		logger.info("Added to Filtered Successful");
 
 	}
 
@@ -114,6 +119,8 @@ public class FilterTest extends basepage {
 		Thread.sleep(2000);
 		driver.findElement(SearchPage.txt_search).sendKeys(PropertiesFile.prop.getProperty("Search2"));
 		driver.findElement(SearchPage.btn_submit).click();
+		logger.info("Searched Successful");
+		
 		driver.navigate().refresh();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)");
@@ -131,6 +138,8 @@ public class FilterTest extends basepage {
 		WebElement select1 = driver.findElement(FilterPage.btn_filterr1);
 		js.executeScript("window.scrollBy(0,-200)");
 		select1.click();
+		logger.info("Clicked on Filtered Option Successful");
+		
 		js.executeScript("window.scrollBy(0,500)");
 		Thread.sleep(3000);
 		driver.findElement(FilterPage.btn_search).click();
@@ -155,6 +164,8 @@ public class FilterTest extends basepage {
 		Assert.assertEquals(driver.getTitle(),
 				"Mobiles- Buy Products Online at Best Price in India - All Categories | Flipkart.com");
 		System.out.println("Assert passed");
+		logger.info("Deleted from Filtered Successful");
+
 
 	}
 

@@ -1,2 +1,279 @@
 [INFO ] 2022-10-07 10:24:53.624 [main] LoginTest - Logging Successful
 [INFO ] 2022-10-07 10:56:54.747 [main] SellerTest - SellerPage clicked Successfully
+[INFO ] 2022-10-07 12:35:43.658 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 12:35:47.157 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 12:36:31.395 [main] LoginTest - Logging UnSuccessful
+[INFO ] 2022-10-07 12:37:03.993 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 12:37:06.484 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 12:37:20.974 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 12:37:27.887 [main] AddaddressTest -  Address added successfully 
+[INFO ] 2022-10-07 12:38:00.762 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 12:38:03.176 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 12:38:17.676 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 12:38:24.801 [main] AddaddressTest -  Address did not get added 
+[INFO ] 2022-10-07 12:39:53.087 [main] DeleteAddressTest - Logging Successful
+[INFO ] 2022-10-07 12:39:57.464 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 12:40:16.908 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 12:40:31.922 [main] DeleteAddressTest -  Address Edited successfully 
+[INFO ] 2022-10-07 12:41:25.922 [main] DeleteAddressTest - Logging Successfully
+[INFO ] 2022-10-07 12:41:28.378 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 12:41:42.951 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 12:41:45.698 [main] DeleteAddressTest -  Address Deleted successfully 
+[INFO ] 2022-10-07 12:42:46.029 [main] SuperCoinZoneTest - Login Successful
+[INFO ] 2022-10-07 12:42:53.487 [main] SuperCoinZoneTest - Clicked to SuperCoinZonePage
+[INFO ] 2022-10-07 12:44:06.421 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 12:44:10.804 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 12:44:12.830 [main] OrdersTest - Successfully opened orders page
+[INFO ] 2022-10-07 12:45:22.182 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 12:45:24.652 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 12:45:26.838 [main] OrdersTest - Successfully clicked on cancelled order filter
+[INFO ] 2022-10-07 12:46:33.303 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 12:46:38.963 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 12:46:46.322 [main] WishlistTest - Added to Wishlist
+[INFO ] 2022-10-07 12:47:22.961 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 12:47:30.252 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 12:48:36.250 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 12:49:34.175 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 12:49:38.343 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 12:49:38.360 [main] SearchTest - Navigatted to other tab
+[INFO ] 2022-10-07 12:49:45.389 [main] SearchTest - Clicked on add to cart button
+[INFO ] 2022-10-07 12:49:47.519 [main] SearchTest - Closed the opened tab and switched back to previous tab
+[INFO ] 2022-10-07 12:50:42.226 [main] FilterTest - Searched Successfully 
+[INFO ] 2022-10-07 12:51:35.143 [main] FilterTest - Searched Successful
+[INFO ] 2022-10-07 12:51:47.009 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 12:51:51.124 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 12:52:01.577 [main] FilterTest - Added to Filtered Successful
+[INFO ] 2022-10-07 12:52:53.878 [main] FilterTest - Searched Successful
+[INFO ] 2022-10-07 12:53:05.815 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 12:53:27.200 [main] FilterTest - Deleted from Filtered Successful
+[INFO ] 2022-10-07 12:54:47.069 [main] SellerTest - SellerPage clicked Successfully
+[INFO ] 2022-10-07 12:55:27.510 [main] FavoritesTest - Logging Successful
+[INFO ] 2022-10-07 12:55:30.122 [main] FavoritesTest - Searched Successful
+[INFO ] 2022-10-07 12:55:32.806 [main] FavoritesTest - Clicked to favorites Page
+[INFO ] 2022-10-07 12:55:54.056 [main] FavoritesTest - Added to favorites 
+[INFO ] 2022-10-07 12:56:53.932 [main] FavoritesTest - Logging Successfully
+[INFO ] 2022-10-07 12:56:56.159 [main] FavoritesTest - Searched Successful 
+[INFO ] 2022-10-07 12:57:19.316 [main] FavoritesTest - Deleted from favorites 
+[INFO ] 2022-10-07 12:58:31.984 [main] SignoutTest - Login Successful
+[INFO ] 2022-10-07 12:58:37.616 [main] SignoutTest - Signout Successful
+[INFO ] 2022-10-07 13:08:02.258 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 13:08:05.836 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 13:08:44.930 [main] LoginTest - Logging UnSuccessful
+[INFO ] 2022-10-07 13:09:34.840 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 13:09:37.369 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:09:51.975 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:09:58.602 [main] AddaddressTest -  Address added successfully 
+[INFO ] 2022-10-07 13:10:51.073 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 13:10:53.490 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:11:08.074 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:11:14.887 [main] AddaddressTest -  Address did not get added 
+[INFO ] 2022-10-07 13:12:06.065 [main] DeleteAddressTest - Logging Successful
+[INFO ] 2022-10-07 13:12:48.945 [main] DeleteAddressTest - Logging Successfully
+[INFO ] 2022-10-07 13:12:53.225 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:13:12.718 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:14:15.526 [main] SuperCoinZoneTest - Login Successful
+[INFO ] 2022-10-07 13:14:24.940 [main] SuperCoinZoneTest - Clicked to SuperCoinZonePage
+[INFO ] 2022-10-07 13:16:10.372 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 13:16:14.785 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 13:16:16.813 [main] OrdersTest - Successfully opened orders page
+[INFO ] 2022-10-07 13:31:07.884 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 13:31:11.462 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 13:31:45.429 [main] LoginTest - Logging UnSuccessful
+[INFO ] 2022-10-07 13:32:39.320 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 13:32:43.708 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:33:03.227 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:33:14.811 [main] AddaddressTest -  Address added successfully 
+[INFO ] 2022-10-07 13:33:44.413 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 13:33:48.857 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:34:08.408 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:34:20.618 [main] AddaddressTest -  Address did not get added 
+[INFO ] 2022-10-07 13:34:51.722 [main] DeleteAddressTest - Logging Successful
+[INFO ] 2022-10-07 13:34:54.341 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:35:08.871 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:35:13.985 [main] DeleteAddressTest -  Address Edited successfully 
+[INFO ] 2022-10-07 13:36:00.270 [main] DeleteAddressTest - Logging Successfully
+[INFO ] 2022-10-07 13:36:04.581 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:36:18.972 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:36:21.529 [main] DeleteAddressTest -  Address Deleted successfully 
+[INFO ] 2022-10-07 13:37:21.498 [main] SuperCoinZoneTest - Login Successful
+[INFO ] 2022-10-07 13:37:28.952 [main] SuperCoinZoneTest - Clicked to SuperCoinZonePage
+[INFO ] 2022-10-07 13:38:18.115 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 13:38:20.645 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 13:38:22.666 [main] OrdersTest - Successfully opened orders page
+[INFO ] 2022-10-07 13:39:45.968 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 13:39:50.333 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 13:39:52.664 [main] OrdersTest - Successfully clicked on cancelled order filter
+[INFO ] 2022-10-07 13:40:46.470 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 13:40:51.920 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 13:40:59.179 [main] WishlistTest - Added to Wishlist
+[INFO ] 2022-10-07 13:42:15.897 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 13:42:23.275 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 13:43:16.160 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 13:43:48.638 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 13:43:52.889 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 13:43:52.906 [main] SearchTest - Navigatted to other tab
+[INFO ] 2022-10-07 13:44:00.291 [main] SearchTest - Clicked on add to cart button
+[INFO ] 2022-10-07 13:44:02.393 [main] SearchTest - Closed the opened tab and switched back to previous tab
+[INFO ] 2022-10-07 13:44:36.758 [main] FilterTest - Searched Successfully 
+[INFO ] 2022-10-07 13:45:19.759 [main] FilterTest - Searched Successful
+[INFO ] 2022-10-07 13:45:32.539 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 13:49:34.167 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 13:49:39.172 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 13:50:13.907 [main] LoginTest - Logging UnSuccessful
+[INFO ] 2022-10-07 13:51:44.438 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 13:51:48.860 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:52:08.286 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:52:20.133 [main] AddaddressTest -  Address added successfully 
+[INFO ] 2022-10-07 13:52:45.129 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 13:52:48.159 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:53:02.573 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:53:08.891 [main] AddaddressTest -  Address did not get added 
+[INFO ] 2022-10-07 13:53:42.048 [main] DeleteAddressTest - Logging Successful
+[INFO ] 2022-10-07 13:53:44.494 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:53:58.920 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:54:03.978 [main] DeleteAddressTest -  Address Edited successfully 
+[INFO ] 2022-10-07 13:54:58.643 [main] DeleteAddressTest - Logging Successfully
+[INFO ] 2022-10-07 13:55:01.052 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 13:55:15.555 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 13:58:14.869 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 13:58:18.317 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 13:59:13.122 [main] LoginTest - Logging UnSuccessful
+[INFO ] 2022-10-07 14:00:08.370 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 14:00:10.815 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:00:25.491 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:00:32.111 [main] AddaddressTest -  Address added successfully 
+[INFO ] 2022-10-07 14:01:23.144 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 14:01:25.564 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:01:39.985 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:01:47.326 [main] AddaddressTest -  Address did not get added 
+[INFO ] 2022-10-07 14:02:48.629 [main] DeleteAddressTest - Logging Successful
+[INFO ] 2022-10-07 14:02:51.195 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:03:05.737 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:03:10.942 [main] DeleteAddressTest -  Address Edited successfully 
+[INFO ] 2022-10-07 14:04:49.118 [main] DeleteAddressTest - Logging Successfully
+[INFO ] 2022-10-07 14:04:51.733 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:05:06.180 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:05:08.887 [main] DeleteAddressTest -  Address Deleted successfully 
+[INFO ] 2022-10-07 14:06:08.069 [main] SuperCoinZoneTest - Login Successful
+[INFO ] 2022-10-07 14:06:15.813 [main] SuperCoinZoneTest - Clicked to SuperCoinZonePage
+[INFO ] 2022-10-07 14:06:55.702 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 14:06:58.316 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 14:07:00.335 [main] OrdersTest - Successfully opened orders page
+[INFO ] 2022-10-07 14:07:30.146 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 14:07:32.623 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 14:07:35.022 [main] OrdersTest - Successfully clicked on cancelled order filter
+[INFO ] 2022-10-07 14:08:13.355 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 14:08:18.801 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 14:08:26.038 [main] WishlistTest - Added to Wishlist
+[INFO ] 2022-10-07 14:09:12.228 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 14:09:17.547 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 14:09:27.532 [main] WishlistTest - Deleted from Wishlist
+[INFO ] 2022-10-07 14:10:05.538 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 14:11:17.592 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 14:11:21.843 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 14:11:21.864 [main] SearchTest - Navigatted to other tab
+[INFO ] 2022-10-07 14:11:27.101 [main] SearchTest - Clicked on add to cart button
+[INFO ] 2022-10-07 14:11:29.195 [main] SearchTest - Closed the opened tab and switched back to previous tab
+[INFO ] 2022-10-07 14:12:06.596 [main] FilterTest - Searched Successfully 
+[INFO ] 2022-10-07 14:12:47.891 [main] FilterTest - Searched Successful
+[INFO ] 2022-10-07 14:13:00.547 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 14:13:04.375 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 14:13:13.506 [main] FilterTest - Added to Filtered Successful
+[INFO ] 2022-10-07 14:13:44.139 [main] FilterTest - Searched Successful
+[INFO ] 2022-10-07 14:13:55.974 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 14:14:13.207 [main] FilterTest - Deleted from Filtered Successful
+[INFO ] 2022-10-07 14:14:57.584 [main] SellerTest - SellerPage clicked Successfully
+[INFO ] 2022-10-07 14:15:11.708 [main] FavoritesTest - Logging Successful
+[INFO ] 2022-10-07 14:15:15.433 [main] FavoritesTest - Searched Successful
+[INFO ] 2022-10-07 14:15:17.806 [main] FavoritesTest - Clicked to favorites Page
+[INFO ] 2022-10-07 14:15:31.681 [main] FavoritesTest - Added to favorites 
+[INFO ] 2022-10-07 14:15:44.348 [main] FavoritesTest - Logging Successfully
+[INFO ] 2022-10-07 14:15:47.400 [main] FavoritesTest - Searched Successful 
+[INFO ] 2022-10-07 14:16:05.322 [main] FavoritesTest - Deleted from favorites 
+[INFO ] 2022-10-07 14:18:48.582 [main] SignoutTest - Login Successful
+[INFO ] 2022-10-07 14:30:51.769 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 14:30:57.935 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 14:33:44.972 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 14:33:48.527 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 14:34:44.293 [main] LoginTest - Logging UnSuccessful
+[INFO ] 2022-10-07 14:35:51.978 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 14:35:54.547 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:36:08.977 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:36:15.788 [main] AddaddressTest -  Address added successfully 
+[INFO ] 2022-10-07 14:37:17.057 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 14:37:19.617 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:37:34.208 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:37:40.784 [main] AddaddressTest -  Address did not get added 
+[INFO ] 2022-10-07 14:38:37.991 [main] DeleteAddressTest - Logging Successful
+[INFO ] 2022-10-07 14:38:40.462 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:38:54.937 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:39:00.779 [main] DeleteAddressTest -  Address Edited successfully 
+[INFO ] 2022-10-07 14:42:40.914 [main] SuperCoinZoneTest - Login Successful
+[INFO ] 2022-10-07 14:42:48.301 [main] SuperCoinZoneTest - Clicked to SuperCoinZonePage
+[INFO ] 2022-10-07 14:43:27.922 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 14:43:30.467 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 14:43:32.482 [main] OrdersTest - Successfully opened orders page
+[INFO ] 2022-10-07 14:44:15.202 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 14:44:17.641 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 14:44:19.866 [main] OrdersTest - Successfully clicked on cancelled order filter
+[INFO ] 2022-10-07 14:45:22.534 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 14:45:28.007 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 14:45:35.247 [main] WishlistTest - Added to Wishlist
+[INFO ] 2022-10-07 14:49:41.644 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 14:49:45.036 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 14:53:50.887 [main] LoginTest - Logging Successful through excel
+[INFO ] 2022-10-07 14:53:54.546 [main] LoginTest - Logging Successful
+[INFO ] 2022-10-07 14:54:11.758 [main] LoginTest - Logging UnSuccessful
+[INFO ] 2022-10-07 14:55:46.216 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 14:55:48.626 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:56:03.089 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:56:09.835 [main] AddaddressTest -  Address added successfully 
+[INFO ] 2022-10-07 14:56:32.304 [main] AddaddressTest - Logging Successful
+[INFO ] 2022-10-07 14:56:34.924 [main] AddaddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:56:49.383 [main] AddaddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:56:55.936 [main] AddaddressTest -  Address did not get added 
+[INFO ] 2022-10-07 14:57:28.777 [main] DeleteAddressTest - Logging Successful
+[INFO ] 2022-10-07 14:57:31.207 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:57:45.764 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:57:50.802 [main] DeleteAddressTest -  Address Edited successfully 
+[INFO ] 2022-10-07 14:58:22.016 [main] DeleteAddressTest - Logging Successfully
+[INFO ] 2022-10-07 14:58:24.404 [main] DeleteAddressTest - Clicked to My profile
+[INFO ] 2022-10-07 14:58:38.848 [main] DeleteAddressTest - Clicked to Manage Address window
+[INFO ] 2022-10-07 14:58:41.458 [main] DeleteAddressTest -  Address Deleted successfully 
+[INFO ] 2022-10-07 14:59:13.213 [main] SuperCoinZoneTest - Login Successful
+[INFO ] 2022-10-07 14:59:20.617 [main] SuperCoinZoneTest - Clicked to SuperCoinZonePage
+[INFO ] 2022-10-07 14:59:57.131 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 14:59:59.493 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 15:00:01.500 [main] OrdersTest - Successfully opened orders page
+[INFO ] 2022-10-07 15:01:26.699 [main] OrdersTest - Logging Successful
+[INFO ] 2022-10-07 15:01:29.083 [main] OrdersTest - Clicked to the orders tab
+[INFO ] 2022-10-07 15:01:31.308 [main] OrdersTest - Successfully clicked on cancelled order filter
+[INFO ] 2022-10-07 15:02:02.834 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 15:02:08.292 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 15:02:15.531 [main] WishlistTest - Added to Wishlist
+[INFO ] 2022-10-07 15:02:45.608 [main] WishlistTest - Login Successful
+[INFO ] 2022-10-07 15:02:51.170 [main] WishlistTest - Clicked to Wishlist tab
+[INFO ] 2022-10-07 15:03:00.859 [main] WishlistTest - Deleted from Wishlist
+[INFO ] 2022-10-07 15:03:31.558 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 15:04:08.220 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 15:04:12.450 [main] SearchTest - Searched Successful
+[INFO ] 2022-10-07 15:04:12.475 [main] SearchTest - Navigatted to other tab
+[INFO ] 2022-10-07 15:04:25.553 [main] SearchTest - Clicked on add to cart button
+[INFO ] 2022-10-07 15:04:27.672 [main] SearchTest - Closed the opened tab and switched back to previous tab
+[INFO ] 2022-10-07 15:05:42.619 [main] FilterTest - Searched Successfully 
+[INFO ] 2022-10-07 15:06:42.114 [main] FilterTest - Searched Successful
+[INFO ] 2022-10-07 15:06:55.614 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 15:06:59.735 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 15:07:49.642 [main] FilterTest - Added to Filtered Successful
+[INFO ] 2022-10-07 15:09:08.086 [main] FilterTest - Searched Successful
+[INFO ] 2022-10-07 15:09:20.091 [main] FilterTest - Clicked on Filtered Option Successful
+[INFO ] 2022-10-07 15:10:40.058 [main] SellerTest - SellerPage clicked Successfully
+[INFO ] 2022-10-07 15:11:36.534 [main] FavoritesTest - Logging Successful
+[INFO ] 2022-10-07 15:11:38.772 [main] FavoritesTest - Searched Successful
+[INFO ] 2022-10-07 15:11:41.014 [main] FavoritesTest - Clicked to favorites Page
+[INFO ] 2022-10-07 15:12:02.748 [main] FavoritesTest - Added to favorites 
+[INFO ] 2022-10-07 15:12:40.564 [main] FavoritesTest - Logging Successfully
+[INFO ] 2022-10-07 15:12:42.994 [main] FavoritesTest - Searched Successful 
+[INFO ] 2022-10-07 15:12:54.602 [main] FavoritesTest - Deleted from favorites 
+[INFO ] 2022-10-07 15:14:37.897 [main] SignoutTest - Login Successful
+[INFO ] 2022-10-07 15:14:43.316 [main] SignoutTest - Signout Successful
