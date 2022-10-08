@@ -1,7 +1,7 @@
 # ABOUT PROJECT 
 
-A. *	Implementation of Automation Exit Test Assignment for Flipkart using Java Selenium
-B.	* Tools Used 
+A *	Implementation of Automation Exit Test Assignment for Flipkart using Java Selenium
+B	* Tools Used 
 1.	* Selenium 
 2.	* Eclipse Editor
 3.	* Java
