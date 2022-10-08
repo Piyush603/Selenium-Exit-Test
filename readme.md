@@ -1,16 +1,16 @@
 # ABOUT PROJECT 
 
-A.	Implementation of Automation Exit Test Assignment for Flipkart using Java Selenium
-B.	Tools Used 
-1.	Selenium 
-2.	Eclipse Editor
-3.	Java
-4.	Github and Jenkins
-5.	TestNG 
-6.	Maven 
-C.	Usage of Config.properties & Excel sheet as input
-D.	Information and Steps to Run the Project
-a.	How to run  
+A. *	Implementation of Automation Exit Test Assignment for Flipkart using Java Selenium
+B.	* Tools Used 
+1.	* Selenium 
+2.	* Eclipse Editor
+3.	* Java
+4.	* Github and Jenkins
+5.	* TestNG 
+6.	* Maven 
+C.	* Usage of Config.properties & Excel sheet as input
+D. *	Information and Steps to Run the Project
+a.	* How to run  
 •	Implemented automation Test project for FlipKart
 •	Code versioning Repositor: GitHub
 •	run RunAssignment.bat 
